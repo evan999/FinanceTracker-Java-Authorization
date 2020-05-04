@@ -25,6 +25,15 @@ public class ApplicationController {
         return "User registered successfully";
     }
 
+    @PostMapping("/user/login")
+    public void login() {
+        boolean isRegistered = true;
+
+        if(isRegistered){
+
+        }
+    }
+
 
 
 
